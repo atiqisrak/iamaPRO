@@ -12,8 +12,11 @@ body {
   line-height: 1.6em;
   color: white;
 }
+
 /* Style the tab */
 .features-tab {
+  padding-left: 70px;
+  padding-top: 1px;
   float: left;
   /* border: 1px solid #ccc; */
   color: white;
@@ -21,13 +24,20 @@ body {
   width: 30%;
   height: 300px;
 }
+/* Scroll line */
+.scroll-line{
+  display: inline;
+  position: absolute;
+  padding-left: 50px;
+  /* padding-top: 20px; */
+}
 
 /* Style the buttons inside the tab */
 .features-tab button {
   display: block;
   background-color: inherit;
   color: #636363;
-  padding: 22px 16px;
+  padding: 0 40px 51px;
   width: 100%;
   border: none;
   outline: none;
